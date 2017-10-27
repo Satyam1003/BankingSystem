@@ -114,11 +114,11 @@ def create(self,name,amt=0):
      ff.write("Date                   \tCredit\t Debit\tBalance\n")
      ff.write(str(strftime("%y-%m-%d %h:%m:%s",gmtime()))+"\t"+str(amt)+"\t    \t"+str(amt)+"\n")
      ff.close()
-     print ("""Congratulations!!
+     print ("""Congratulations !!
      Account created successfully!!
      Your Account No. is - """,accnt_no)
      return
-print ("Welcome to Apna bank!!")
+print ("Welcome to JUIT bank!!")
 while True:
 	ch=int(input("Enter 1 to continue 0 to quit: "))
 	if ch==0:
